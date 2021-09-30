@@ -1473,7 +1473,7 @@ img{
   
   @keyframes bricks {
     from {
-      fill: #ED6663;
+      fill: #ffffffcb;
       opacity: 0.8;
     }
     to {
@@ -1502,19 +1502,19 @@ img{
 
   
 .light-window {
-    animation: night-window-light 4s ease-in-out infinite alternate 3s;
+    animation: night-window-light 3s ease-in-out infinite alternate 3s;
   }
   
   #building {
-    animation: night-building 4s ease-in-out infinite alternate 3s;
+    animation: night-building 3s ease-in-out infinite alternate 3s;
   }
   
   #sky {
-    animation: night-sky 4s ease-in-out infinite alternate 3s;
+    animation: night-sky 3s ease-in-out infinite alternate 3s;
   }
   
   .window {
-    animation: night-window-opacity 4s ease-in-out infinite alternate 3s;
+    animation: night-window-opacity 3s ease-in-out infinite alternate 3s;
   }
   
   #coder {
