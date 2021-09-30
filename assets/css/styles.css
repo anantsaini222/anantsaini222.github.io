@@ -1473,7 +1473,7 @@ img{
   
   @keyframes bricks {
     from {
-      fill: #ffffffcb;
+      fill: #ED6663;
       opacity: 0.8;
     }
     to {
@@ -1501,62 +1501,3 @@ img{
 
 
   
-.light-window {
-    animation: night-window-light 3s ease-in-out infinite alternate 3s;
-  }
-  
-  #building {
-    animation: night-building 3s ease-in-out infinite alternate 3s;
-  }
-  
-  #sky {
-    animation: night-sky 3s ease-in-out infinite alternate 3s;
-  }
-  
-  .window {
-    animation: night-window-opacity 3s ease-in-out infinite alternate 3s;
-  }
-  
-  #coder {
-    animation: person 1.5s ease-in-out infinite alternate;
-    transform-origin: bottom;
-  }
-  
-  @keyframes night-building {
-    from {
-      fill: #DFD9FD;
-    }
-    to {
-      fill: #C1B5FF;
-    }
-  }
-  @keyframes night-sky {
-    from {
-      fill: #B9ABFF;
-    }
-    to {
-      fill: #625B88;
-    }
-  }
-  @keyframes night-window-light {
-    0% {
-      fill: #5335EC;
-      opacity: 0.4;
-    }
-    50% {
-      fill: #FFFF00;
-      opacity: 0.7;
-    }
-    100% {
-      fill: #FFFF00;
-      opacity: 0.9;
-    }
-  }
-  @keyframes night-window-opacity {
-    from {
-      opacity: 0.4;
-    }
-    to {
-      opacity: 0.7;
-    }
-  }
